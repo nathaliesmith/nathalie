@@ -1,21 +1,38 @@
-body {
+* {
+	box-sizing: content-box;
+}
+body { 
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	color: #8dfe82;
+	background-color: #FE828C;
 	margin: 0;
 	padding: 0;
-	font-family: 'Franklin gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
-	background-color: blanchedalmond;
-	color: lightcoral;
-}
-main {
-	padding: 1em;
 }
 img {
 	max-width: 100%;
 	height: auto;
 }
-h1 {
-	font-weight: 600;
-	margin: 0;
+h1{
+	font-size: 64px;
 }
-p {
-	margin: 0 0 1em 0;
+h2{
+	font-size: 48px;
+}
+p{
+	font-size: 32px;
+}
+.button{
+	display: inline-block;
+	font-size: 24px;
+	cursor: pointer;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color:#000;
+	border: none;
+	border-radius: 15px;
+}
+.button:hover{
+	background-color: #8dfe82;
 }
